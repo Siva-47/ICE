@@ -6,7 +6,7 @@ This repository is the official implementation of this paper.
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
-![rrr](https://github.com/sivayu47/ICE/ICE.png)
+![rr](https://github.com/sivayu47/ICE/ICE.png)
 
 ## Requirements
 
