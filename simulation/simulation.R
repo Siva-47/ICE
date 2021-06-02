@@ -1,4 +1,4 @@
-setwd('C:/Users/yulin/Desktop/ICE-master/') # your path
+setwd('/ICE-master/') # your path
 
 n <- 1000
 repeats <- 3 # 3 repetitions for quick display
