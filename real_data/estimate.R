@@ -2,7 +2,7 @@ library(data.table)
 library(igraph)
 
 # load data
-setwd('C:/Users/yulin/Desktop/ICE-master/') # your path
+setwd('/ICE-master/') # your path
 g <- read_graph('./real_data/data/sub-0027055_ses-1_dwi_DS00350.graphml', 
                 format = 'graphml')
 A <- as_adjacency_matrix(as.undirected(g))
