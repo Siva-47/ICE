@@ -46,7 +46,7 @@ gp_generate <- function(n, setting){
   return(list(P = P, A = A))
 }
 
-# generate a network with 200 vertexes using Graphon 4 
+# example: generate a network with 200 vertexes using Graphon 4 
 gp <- gp_generate(200, 4)
 A <- gp$A
 P <- gp$P
