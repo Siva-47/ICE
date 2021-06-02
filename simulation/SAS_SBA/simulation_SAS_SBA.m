@@ -1,4 +1,4 @@
-path = 'C:\Users\yulin\Desktop\ICE-master\simulation\'; % your path
+path = '\ICE-master\simulation\'; % your path
 
 repeats = 3; % 3 repetitions for quick display 
 
