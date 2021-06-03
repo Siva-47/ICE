@@ -19,6 +19,8 @@ The code are mainly written with R (version 4.0.3). The following R packages are
   - pheatmap
   - viridisLite
 
+For example, to install 'data.table', run
+
 ```setup
 install.packages('data.table')
 ```
