@@ -52,7 +52,7 @@ To evaluate our method on simulated networks and compare it with NS, USVT and Or
 
 Folder **simulation/data** includes the network data generated, which can be used as the inputs for methods written with Matlab (SAS and SBA). 
 
-Folder **simulation/result** includes the results. We have store the data and results on Graphon 1 with 3 repetitions as an example.
+Folder **simulation/result** includes the results. We have store the data and results on Graphon 1 with 3 repetitions ***(saving your time!)*** as an example.
 
 To get the performance of SAS and SBA on the same networks, run **simulation/SAS_SBA/simulation_SAS_SBA.m**.
 
@@ -66,4 +66,4 @@ To evaluate our method on the real network provided by [Nuerodata](http://mrneur
 
 Folder **real_data/data** includes the original network data and the adjacency matrix. 
 
-Folder **real_data/result** includes the results of the evaluation procedure with 3 repetitions as an example.
+Folder **real_data/result** includes the results of the evaluation procedure with 3 repetitions ***(saving your time!)***  as an example.
