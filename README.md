@@ -23,15 +23,15 @@ The code are mainly written with R (version 4.0.3). The following R packages are
 install.packages('data.table')
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+## Methods
 
-## Training
+We list all the methods we discuss in the dictionary **Methods**, including our proposed method (ICE), and
+neighborhood averaging method (NS) proposed by 
 
-To train the model(s) in the paper, run this command:
+## Application
 
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
+The file **application.R** shows how to use our proposed method with a given network, including some necessary details, like 
+how to stop the iterations and select tuning parameters.
 
 >📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
