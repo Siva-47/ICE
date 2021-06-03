@@ -26,7 +26,10 @@ install.packages('data.table')
 ## Methods
 
 We list all the methods we discuss in the dictionary **Methods**, including our proposed method (ICE), and
-neighborhood averaging method (NS) proposed by 
+[neighborhood averaging method (NS)](http://dept.stat.lsa.umich.edu/~jizhu/pubs/Zhang-Biometrika17.pdf) proposed by
+Zhang et al. (2017),
+[universal singular value thresholding algorithm (USVT)](https://arxiv.org/pdf/1212.1247.pdf) (Chatterjee et al., 2015)
+and neighborhood averaging using true neighbors (Oracle).
 
 ## Application
 
