@@ -48,11 +48,11 @@ Mark: To generate the simulated network, the code in the file **simulation/netwo
 
 To evaluate our method on simulated networks and compare it with NS, USVT and Oracle, run **simulation/simulation.R**.
 
-To get the performance of SAS and SBA on the same networks, run **simulation/SAS_SBA/**.
-
 The dictionary **simulation/data** includes the network data generated, which can be used as the inputs for methods written with Matlab (SAS and SBA). 
 
 The dictionary **simulation/result** includes the results. We have store the data and results on Graphon 1 with 3 repetitions as an example.
+
+To get the performance of SAS and SBA on the same networks, run **simulation/SAS_SBA/simulation_SAS_SBA.m**.
 
 ## Real Data Analysis
 
