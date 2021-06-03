@@ -8,10 +8,13 @@ This repository is the official implementation of the paper "Iterative Connectin
 
 The following R packages are required and can be installed directly in R:
 
-- data.table: load and save data
-- igraph: load and process network data
-- ggplot2: visualization 
-- Rfast: 
+- data.table
+- igraph
+- ggplot2 
+- Rfast 
+- Matrix
+- pheatmap
+- viridisLite
 
 ```setup
 install.packages('data.table')
