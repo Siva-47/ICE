@@ -46,7 +46,7 @@ Mark: To generate the simulated network, the code in the file **simulation/netwo
 
 ## Simulation
 
-To evaluate our method on simulated networks and compare it with NS, USVT and Oracle, run **simulation/simulation.R**.
+To evaluate our method on simulated networks and compare it with NS, USVT and Oracle, run **simulation/network_generate.R** and **simulation/simulation.R**.
 
 The dictionary **simulation/data** includes the network data generated, which can be used as the inputs for methods written with Matlab (SAS and SBA). 
 
