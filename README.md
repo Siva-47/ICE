@@ -6,7 +6,7 @@ This repository is the official implementation of the paper "Iterative Connectin
 
 ## Requirements
 
-The code are mainly written with R (version 4.0.3). The following R packages are required and can be installed directly in R:
+The code are mainly written in R (version 4.0.3). The following R packages are required and can be installed directly in R:
 
 - load and process data
   - data.table
@@ -36,7 +36,7 @@ To reproduce the results in the paper, you should run the code in all the files
 in this folder first.
 
 The other two methods, [stochastic blockmodel approximation algorithm (SBA)](https://papers.nips.cc/paper/2013/file/b7b16ecf8ca53723593894116071700c-Paper.pdf) (Airoldi et al., 2013), [sorting and smoothing method (SAS)](https://scholar.harvard.edu/files/stanleychan/files/chan_airoldi_2014_0.pdf) (Chan and Airoldi, 2014)
-are provided by Chan and Airoldi (2014) and written with Matlab.
+are provided by Chan and Airoldi (2014) and written in MATLAB.
 We place the codes in folder **simulation/SAS_SBA**.
 
 ## Application
