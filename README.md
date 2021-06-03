@@ -8,15 +8,16 @@ This repository is the official implementation of the paper "Iterative Connectin
 
 The code are mainly written with R (version 4.0.3). The following R packages are required and can be installed directly in R:
 
-- ddd
+- load and process data
   - data.table
   - igraph
-- dd
-  - ggplot2 
+- speed the computation
   - Rfast 
-- Matrix
-- pheatmap
-- viridisLite
+  - Matrix
+- visualize the results
+  - ggplot2 
+  - pheatmap
+  - viridisLite
 
 ```setup
 install.packages('data.table')
