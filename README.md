@@ -30,13 +30,14 @@ We list all the methods we discuss in the dictionary **Methods**, including our 
 Zhang et al. (2017),
 [universal singular value thresholding algorithm (USVT)](https://arxiv.org/pdf/1212.1247.pdf) (Chatterjee et al., 2015)
 and neighborhood averaging using true neighbors (Oracle).
+The other two methods, [stochastic blockmodel approximation algorithm (SBA)](https://papers.nips.cc/paper/2013/file/b7b16ecf8ca53723593894116071700c-Paper.pdf) (Airoldi et al., 2013), [sorting and smoothing method (SAS)](https://scholar.harvard.edu/files/stanleychan/files/chan_airoldi_2014_0.pdf) (Chan and Airoldi, 2014)
+are provided by Chan and Airoldi (2014) and written with Matlab.
+We 
 
 ## Application
 
-The file **application.R** shows how to use our proposed method with a given network, including some necessary details, like 
-how to stop the iterations and select tuning parameters.
-
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+The file **application.R** shows how to use our proposed method (ICE) with a given network, including some necessary details, like 
+how to stop the iterations and select appropriate tuning parameters.
 
 ## Evaluation
 
