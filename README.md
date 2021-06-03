@@ -25,7 +25,7 @@ install.packages('data.table')
 
 ## Methods
 
-We list all the methods we discuss in the dictionary **Methods**, including our proposed method (ICE), and
+We list all the methods we discuss in the folder **Methods**, including our proposed method (ICE), and
 [neighborhood averaging method (NS)](http://dept.stat.lsa.umich.edu/~jizhu/pubs/Zhang-Biometrika17.pdf) proposed by
 Zhang et al. (2017),
 [universal singular value thresholding algorithm (USVT)](https://arxiv.org/pdf/1212.1247.pdf) (Chatterjee et al., 2015)
@@ -48,9 +48,9 @@ Mark: To generate the simulated network, the code in the file **simulation/netwo
 
 To evaluate our method on simulated networks and compare it with NS, USVT and Oracle, run **simulation/network_generate.R** and **simulation/simulation.R**.
 
-The dictionary **simulation/data** includes the network data generated, which can be used as the inputs for methods written with Matlab (SAS and SBA). 
+The folder **simulation/data** includes the network data generated, which can be used as the inputs for methods written with Matlab (SAS and SBA). 
 
-The dictionary **simulation/result** includes the results. We have store the data and results on Graphon 1 with 3 repetitions as an example.
+The folder **simulation/result** includes the results. We have store the data and results on Graphon 1 with 3 repetitions as an example.
 
 To get the performance of SAS and SBA on the same networks, run **simulation/SAS_SBA/simulation_SAS_SBA.m**.
 
@@ -62,6 +62,6 @@ To evaluate our method on the real network provided by [Nuerodata](http://mrneur
 - run **real_data/link_prediction.R** to evaluate their performances via the task of link prediction
 - run **real_data/host_game.R** to evaluate their performances via the "host game" we propose in the paper
 
-The dictionary **real_data/data** includes the original network data and the adjacency matrix. 
+The folder **real_data/data** includes the original network data and the adjacency matrix. 
 
-The dictionary **real_data/result** includes the results of the evaluation procedure with 3 repetitions as an example.
+The folder **real_data/result** includes the results of the evaluation procedure with 3 repetitions as an example.
