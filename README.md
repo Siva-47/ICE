@@ -42,15 +42,11 @@ We place the codes in dictionary **simulation/SAS_SBA**.
 The file **application.R** provides an example about how to use our proposed method (ICE) with a given network, including some necessary details, like 
 how to stop the iterations and select appropriate tuning parameters.
 
+Mark: To generate the simulated network, the code in the file **simulation/network_generate.R** should be runned first.
+
 ## Simulation
 
-To evaluate my model on ImageNet, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
+To evaluate our method on simulated network,
 
 ## Real Data Analysis
 
