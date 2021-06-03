@@ -6,10 +6,12 @@ This repository is the official implementation of the paper "Iterative Connectin
 
 ## Requirements
 
-The following R packages are required and can be installed directly in R:
+The code are mainly written with R (version 4.0.3). The following R packages are required and can be installed directly in R:
 
++ ddd
 - data.table
 - igraph
++ dd
 - ggplot2 
 - Rfast 
 - Matrix
