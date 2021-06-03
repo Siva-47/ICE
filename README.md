@@ -6,10 +6,15 @@ This repository is the official implementation of the paper "Iterative Connectin
 
 ## Requirements
 
-To install requirements:
+The following R packages are required and can be installed directly in R:
+
+- data.table: load and save data
+- igraph: load and process network data
+- ggplot2: visualization 
+- Rfast: 
 
 ```setup
-pip install -r requirements.txt
+install.packages('data.table')
 ```
 
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
