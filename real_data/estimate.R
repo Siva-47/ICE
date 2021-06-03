@@ -72,24 +72,3 @@ pheatmap(ice_res$final_P_hat,
          color = viridis(length(bk), direction = -1),
          legend_breaks=seq(0, 1, 0.1),
          breaks=bk)
-
-# SAS
-sas <- as.matrix(fread('./real_data/result/sas.csv'))
-pheatmap(sas,
-         cluster_rows = FALSE, cluster_cols = FALSE,
-         show_rownames = FALSE, show_colnames = FALSE,
-         scale = "none",
-         color = viridis(length(bk), direction = -1),
-         legend_breaks=seq(0, 1, 0.1),
-         breaks=bk)
-
-# SBA
-sba <- as.matrix(fread('./real_data/result/sba.csv'))
-pheatmap(sba,
-         cluster_rows = FALSE, cluster_cols = FALSE,
-         show_rownames = FALSE, show_colnames = FALSE,
-         scale = "none",
-         color = viridis(length(bk), direction = -1),
-         legend_breaks=seq(0, 1, 0.1),
-         breaks=bk)
-
