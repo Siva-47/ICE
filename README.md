@@ -39,7 +39,7 @@ We place the codes in folder **simulation/SAS_SBA**.
 
 ## Application
 
-File **application.R** provides an example about how to use our proposed method (ICE) with a given network, including some necessary details, like 
+File **application.R** provides a brief example about how to use our proposed method (ICE) with a given network, including some necessary details, like 
 how to stop the iterations and select appropriate tuning parameters.
 
 Mark: To generate the simulated network, the code in file **simulation/network_generate.R** should be runned first.
