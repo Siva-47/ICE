@@ -56,8 +56,12 @@ To get the performance of SAS and SBA on the same networks, run **simulation/SAS
 
 ## Real Data Analysis
 
-You can download pretrained models here:
+To evaluate our method on the real network provided by [Nuerodata](http://mrneurodata.s3-website-us-east-1.amazonaws.com/BNU3/ndmg_0-0-48/graphs/DS00350/sub-0027055_ses-1_dwi_DS00350.gpickle):
 
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
+- run **real_data/estimate.R** first to get the estimates of the above methods
+- run **real_data/link_prediction.R** to evaluate their performances via the task of link prediction
+- run **real_data/host_game.R** to evaluate their performances via the "host game" we propose in the paper
 
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+The dictionary **real_data/data** includes the original network data and the adjacency matrix. 
+
+The dictionary **real_data/result** includes the results of the evaluation procedure with 3 repetitions as an example.
